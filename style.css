@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.salamair.com/images/des/Destinations%20%20%20square%20_Muscat.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: inherit;
+    font-style: oblique;
+}
+
+.loginbox{
+    width: 320px;
+    height: 480px;
+    background: rgba(255,255,255,0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 35px rgb(190, 167, 167);
+}
+
+
+
+h1{
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(180, 91, 91);
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: rgb(131, 52, 52);
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(148, 71, 71);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #040831;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #c01f1f;
+    color: rgb(13, 4, 46);
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(75, 65, 88);
+}
+
+.loginbox a:hover
+{
+    color: rgb(247, 15, 15);
+}
+
+
+
+
+
